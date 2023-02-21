@@ -2,7 +2,7 @@
 # 
 library(decisionSupport)
 input_estimates <- data.frame(variable = c("Taste", "Safety", "Health", "Existing_diet_div"),
-                              lower = c(.10, .3, .50, .30),
+                              lower = c(0.10, 0.3, 0.50, 0.30),
                               median = NA,
                               upper = c(.90, .88, .99, .80),
                               distribution = c("posnorm", "posnorm", "posnorm", "posnorm"),
@@ -35,3 +35,5 @@ plot_distributions(mcSimulation_object = example_mc_simulation,
                    method = "smooth_simple_overlay",
                    old_names = c("final_result_salad", "final_result_no_salad"),
                    new_names = c("Outcome with salad", "Outcome without salad"))
+github.com
+
