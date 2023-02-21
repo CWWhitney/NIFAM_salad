@@ -27,7 +27,7 @@ model_function <- function(){
 # Run the Monte Carlo simulation using the model function
 example_mc_simulation <- mcSimulation(estimate = as.estimate(input_estimates),
                                       model_function = model_function,
-                                      numberOfModelRuns = 800,
+                                      numberOfModelRuns = 810,
                                       functionSyntax = "plainNames")
 
 plot_distributions(mcSimulation_object = example_mc_simulation,
