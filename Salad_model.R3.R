@@ -1,9 +1,13 @@
 # Salad and diet diversity of schoolchildren
 # 
 library(decisionSupport)
+# David ####
+# @David make some exponential functions here where appropriate
 input_estimates <- data.frame(variable = c("Taste", "Safety", "Health", "Existing_diet_div"),
                               lower = c(.10, .6, .50, .30),
                               median = NA,
+                              # Sau ####
+                              # @sau please add more zeros
                               upper = c(.90, .88, .99, .80),
                               distribution = c("posnorm", "posnorm", "posnorm", "posnorm"),
                               label = c("Taste (percent)", "Safety (percent)", "Health (percent)", "Existing diversity (percent)"),
