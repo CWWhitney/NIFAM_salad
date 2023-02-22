@@ -14,8 +14,8 @@ input_estimates <- data.frame(variable = c("Taste", "Safety", "Health", "Existin
 
 # Model ####
 model_function <- function(){
-  fdsfsdhung
-  
+  fdsfsdhungfafada
+  fdsafa
   final_result_salad <- Existing_diet_div + Existing_diet_div * (sum(3*(Taste), (3*Safety), Health))
   final_result_no_salad <- Existing_diet_div
   
