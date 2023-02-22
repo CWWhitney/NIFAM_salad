@@ -12,10 +12,10 @@ input_estimates <- data.frame(variable = c("Taste", "Safety", "Health", "Existin
                                               "Percentage of the salad that is healthy", 
                                               "Percentage of  diets that are currently diverse"))
 
-# Model ####
+# Model #### 
 model_function <- function(){
   fdsfsdhungfafada
-  fdsafa
+  fdsafafdsfds
   final_result_salad <- Existing_diet_div + Existing_diet_div * (sum(3*(Taste), (3*Safety), Health))
   final_result_no_salad <- Existing_diet_div
   
